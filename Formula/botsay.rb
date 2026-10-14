@@ -5,23 +5,23 @@ class Botsay < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/maebert/botsay/releases/download/v0.2.0/botsay-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "31b67d1ae132ebec0e4505f0e76d06e3667a4dab3529de53a68b721b8ff979c2"
+      url "https://github.com/maebert/botsay/releases/download/v0.2.1/botsay-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f5ebeab1d3db332fdc9abada72f3300169e8891b1a9584956254334288ff5d5b"
     end
     on_intel do
-      url "https://github.com/maebert/botsay/releases/download/v0.2.0/botsay-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e2e13f6b97db2d8c0789b83eec8f86aa8661140c3735ff26e78d411f7f31b1e3"
+      url "https://github.com/maebert/botsay/releases/download/v0.2.1/botsay-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b1c5e22aff3a7a442eb3a2b879812cdec2798410089853b7f447310472eaad67"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/maebert/botsay/releases/download/v0.2.0/botsay-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c080b6ef6d12c2fe353acaf2bd0c5bc3c71227ced651e67bab86183a81585321"
+      url "https://github.com/maebert/botsay/releases/download/v0.2.1/botsay-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "29352e1cf3614b70b9a6d5bb0f0827b79424e99a51b54ab84a012631040e58ca"
     end
     on_intel do
-      url "https://github.com/maebert/botsay/releases/download/v0.2.0/botsay-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e2fb6c4956fef27370c326205e5c772b48b6e150d9bda87f76a48ad937a53fde"
+      url "https://github.com/maebert/botsay/releases/download/v0.2.1/botsay-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0fcc9eb386dfe965fd51db6cc90420429e44d20b3ee44e91a3ed2894cbbc098b"
     end
   end
 
